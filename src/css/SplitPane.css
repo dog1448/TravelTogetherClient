@@ -1,0 +1,14 @@
+.split-pane{
+	-fx-border-color: #000000;
+	-fx-border-width: 3;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-border-color: transparent #D8D9F6 transparent #D8D9F6;
+    -fx-background-color: transparent, derive(#D8D9F6,20%);
+}
+
+.split-pane:vertical > .split-pane-divider {
+    -fx-border-color: transparent #D8D9F6 transparent #D8D9F6;
+    -fx-background-color: transparent, derive(#D8D9F6,20%);
+}

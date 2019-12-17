@@ -1,0 +1,12 @@
+.tab-header-background{
+    -fx-background-color: linear-gradient(to bottom, #0080FF, #01A9DB);
+}
+
+.tab:selected{
+    -fx-effect: innershadow(three-pass-box, #000000, 10, 0.5, 4, 4.1);
+    -fx-border-width: 3;
+    -fx-body-color:transparent;
+    -fx-border-color:transparent #7C848B #7C848B transparent;
+    -fx-focus-color: transparent; 
+    -fx-background-insets: -1.4, 0, 1, 2;
+}

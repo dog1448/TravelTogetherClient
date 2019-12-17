@@ -1,0 +1,15 @@
+.check-box:selected > .box {
+    /* background color for selected checkbox */
+    -fx-background-color: #000000;
+}
+
+.check-box > .box {
+    /* background color of unselected checkbox */
+    -fx-background-color: #FFFFFF;
+}
+
+.check-box:selected > .box > .mark,
+.check-box:indeterminate  > .box > .mark {
+    /* modify mark color */
+    -fx-background-color: #2EFEF7;
+}

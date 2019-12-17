@@ -1,0 +1,31 @@
+.button {  
+    -fx-border-color: #000000;
+    -fx-border-width: 0;
+    -fx-padding: 10 0 0 0;
+    -fx-background-radius: 0;
+    -fx-background-color:  rgba( 255, 255, 255, 0 );
+}
+
+.button:hover {
+    -fx-effect: innershadow(three-pass-box, #000000, 10, 0, 5, 5.1);
+    -fx-effect: dropshadow(three-pass-box, #000000, 10, 0, 2, 2);
+    
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: linear-gradient(to bottom, #000000, #819FF7);
+  -fx-effect: dropshadow(three-pass-box, #000000, 10, 0, 2, 2);
+  -fx-text-fill: #FFFFFF;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.toolbar{
+	-fx-background-color: #B2C7E9;
+	-fx-border-color: #000000;
+    -fx-border-width: 2;
+    -fx-padding: 3;
+}

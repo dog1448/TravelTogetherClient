@@ -1,0 +1,43 @@
+.label-smallTitle {
+    -fx-font-size: 20pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.label-FromTo {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+
+.button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #000000;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: linear-gradient(to bottom, #0080FF, #819FF7);
+    -fx-font-family: sans-serif;
+    -fx-font-size: 15pt;
+    -fx-text-fill: #0B173B;
+    -fx-font-weight: bold;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-effect: dropshadow(three-pass-box, #000000, 10, 0, 2, 2);
+}
+
+.button:hover {
+    -fx-effect: innershadow(three-pass-box, #000000, 10, 0, 5, 5.1);
+    -fx-border-width: 3;
+    -fx-effect: dropshadow(three-pass-box, #000000, 10, 0, 2, 2);
+    
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: linear-gradient(to bottom, #000000, #819FF7);
+  -fx-effect: dropshadow(three-pass-box, #000000, 10, 0, 2, 2);
+  -fx-border-width: 2;
+  -fx-text-fill: #FFFFFF;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
